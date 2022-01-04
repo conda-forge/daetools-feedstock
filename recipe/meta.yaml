@@ -15,7 +15,7 @@ build:
 
 # superlu dependency is not (yet) available on windows. skip windows build for now
 # build for osx needs osx knowledge, skip osx build for now 
-  skip: True  # [not linux]
+  skip: True  # [not osx]
 
 
 requirements:
